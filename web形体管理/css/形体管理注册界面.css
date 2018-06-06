@@ -1,0 +1,88 @@
+ /*.body{
+  max-width:400px;
+  height:600px;
+ }
+
+ .head{
+          color:#333;
+            font-size: 40px;
+            font-family:KaiTi;
+            font-weight: bold;
+            padding-bottom: 30px;
+            border-bottom-style:1px bold #333;
+
+            
+ }*/
+
+ .content {
+
+     color: #333;
+     font-size: 20px;
+     font-family: KaiTi;
+     font-weight: bold;
+ }
+
+ .bg {
+     background-image: url(http://pic.58pic.com/58pic/15/25/30/42U58PICtSi_1024.jpg);
+     height: 600px;
+     width: 400px;
+     margin-left: 320px;
+ }
+
+.bg-blur {
+     float: left;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     -webkit-filter: blur(15px);
+     -moz-filter: blur(15px);
+     -o-filter: blur(15px);
+     -ms-filter: blur(15px);
+     filter: blur(15px);
+ }
+
+ /*.content-front {
+     position: absolute;
+     left: 20px;
+     right: 10px;
+     height: 600px;
+     margin-top: 0px;
+     line-height: 30px;
+ }*/
+
+ .content-front {
+     position: absolute;
+     text-align: left;
+     line-height: 30px;
+     margin-left: 320px;
+     line-height: 20px;
+
+ }
+
+ .page {
+     /*max-width: 400px;
+     height:90%;
+     margin:50px auto;
+     background:white;
+     opacity:0.5;
+     border: 0px solid #ccc;*/
+     max-width: 400px;
+     background: rgba(255,255,255,0.2);
+    
+     margin: 80px auto;
+ }
+
+
+
+ #button {
+     font-size: 20px;
+     color: #FF0000;
+     position：absolute;
+      margin：0 auto;
+     font-weight: bold;
+     width: 200px;
+     background-color: #0FF;
+     font-family: SimHei;
+     height: 40px;
+     border-radius: 15px;
+ }
