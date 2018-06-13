@@ -1,44 +1,28 @@
- .content {
+ .container{
+  margin-top: 20px;
+  max-width: 400px;
+  text-align: left;
+  line-height: 40px;
+  
+}
 
-     color: #333;
-     font-size: 20px;
-     font-family: KaiTi;
-     font-weight: bold;
- }
 
- .bg {
-     background-image: url(http://pic.58pic.com/58pic/15/25/30/42U58PICtSi_1024.jpg);
-     height: 600px;
-     width: 400px;
-     margin-left: 320px;
- }
-
- .bg-blur {
-     float: left;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     -webkit-filter: blur(15px);
-     -moz-filter: blur(15px);
-     -o-filter: blur(15px);
-     -ms-filter: blur(15px);
-     filter: blur(15px);
+.bg { 
+  background-image: url(http://img1.imgtn.bdimg.com/it/u=2975456394,1104738169&fm=27&gp=0.jpg);
+  background-size: cover;
+  height:600px;
+  width:400px;
  }
 
 
- .content-front {
-     position: absolute;
-     text-align: left;
-     line-height: 30px;
-     margin-left: 320px;
-     line-height: 40px;
- }
 
- .page {
-     max-width: 400px;
+
+
+.page{
+     position:absolute;
      background: rgba(255, 255, 255, 0.2);
-     width: 400px;
      margin: 120px auto;
+     
  }
 
 
@@ -46,10 +30,10 @@
  #button {
      font-size: 20px;
      color: #FF0000;
+     width:50%;
      position：absolute;
      margin：0 auto;
      font-weight: bold;
-     width: 200px;
      background-color: #0FF;
      font-family: SimHei;
      height: 40px;

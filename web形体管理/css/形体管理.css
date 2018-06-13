@@ -10,7 +10,7 @@
 .page {
     max-width: 400px;
     height: 600px;
-    background-image: url(http://pic.58pic.com/58pic/15/25/30/42U58PICtSi_1024.jpg);
+    background-image: url(http://img1.imgtn.bdimg.com/it/u=2975456394,1104738169&fm=27&gp=0.jpg);
     background-size: cover;
     line-height: 30px;
 }
@@ -45,7 +45,7 @@
     color: #FF0000;
     position：absolute;
     font-weight: bold;
-    width: 100px;
+    width: 80%;
     /*   background-color: #0FF;*/
     font-family: SimHei;
     height: 30px;

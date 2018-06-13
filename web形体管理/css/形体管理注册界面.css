@@ -1,3 +1,8 @@
+.container{
+  max-width: 400px;
+  line-height: 40px;
+  
+}
  .content {
 
      color: #333;
@@ -7,10 +12,11 @@
  }
 
  .bg {
-     background-image: url(http://pic.58pic.com/58pic/15/25/30/42U58PICtSi_1024.jpg);
-     height: 600px;
-     width: 400px;
-     margin-left: 320px;
+     position:absolute;
+     background-image: url(http://img1.imgtn.bdimg.com/it/u=2975456394,1104738169&fm=27&gp=0.jpg);
+     height:600px;
+     width:400px;
+     
  }
 
  .bg-blur {
@@ -26,17 +32,16 @@
  }
 
  .content-front {
-     position: absolute;
      text-align: left;
      line-height: 30px;
-     margin-left: 320px;
-     line-height: 20px;
+    
  }
 
  .page {
-     max-width: 400px;
+     position:absolute;
      background: rgba(255, 255, 255, 0.2);
      margin: 80px auto;
+     max-width:100%;
  }
 
 
@@ -44,10 +49,9 @@
  #button {
      font-size: 20px;
      color: #FF0000;
-     position：absolute;
      margin：0 auto;
      font-weight: bold;
-     width: 200px;
+     width: 50%;
      background-color: #0FF;
      font-family: SimHei;
      height: 40px;
