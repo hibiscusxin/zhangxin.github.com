@@ -1,5 +1,4 @@
  .container{
-  margin-top: 20px;
   max-width: 400px;
   text-align: left;
   line-height: 40px;
@@ -8,10 +7,11 @@
 
 
 .bg { 
-  background-image: url(http://img1.imgtn.bdimg.com/it/u=2975456394,1104738169&fm=27&gp=0.jpg);
+  background-image: url(http://d.5857.com/meme_150909/008.jpg);
   background-size: cover;
   height:600px;
-  width:400px;
+  width:100%;
+
  }
 
 
@@ -22,9 +22,17 @@
      position:absolute;
      background: rgba(255, 255, 255, 0.2);
      margin: 120px auto;
-     
+     margin-left:12px;
  }
 
+ .control-labe1{
+  left:10px;
+  font-size: 20px;
+ }
+.form-control{
+  font-size: 25px;
+  font-weight: bold;
+}
 
 
  #button {
