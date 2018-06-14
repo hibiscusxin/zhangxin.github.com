@@ -42,8 +42,9 @@
      position：absolute;
      margin：0 auto;
      font-weight: bold;
-     background-color: #0FF;
+     background-color: #FFF;
+     opacity: 0.8;
      font-family: SimHei;
      height: 40px;
-     border-radius: 15px;
+     border-radius: 8px;
  }
