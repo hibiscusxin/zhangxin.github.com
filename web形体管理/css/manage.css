@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-16 19:52:29
+ * @version $Id$
+ */
+.container{
+	margin-top: 20px;
+	max-width: 400px;
+	text-align: center;
+	font-size: 13px;
+}
+
+#information_text{
+	line-height: 50px;
+}
+
+#information_data{
+	top: 20px;
+}
+
+
+.bottom1{
+	position:absolute;
+	margin-top:450px;
+}
+
+.bottom2{
+	position: fixed;
+	bottom: 0px;
+}
+
+
+.icon{
+	background: none;
+	border: none;
+
+}
