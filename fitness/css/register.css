@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-14 18:30:49
+ * @version $Id$
+ */
+
+
+.container{
+  max-width: 400px;
+  line-height: 40px;
+  
+}
+ .content {
+
+     color: #333;
+     font-size: 20px;
+     font-family: KaiTi;
+     font-weight: bold;
+ }
+
+ .bg {
+     position:absolute;
+     background-image: url(http://img1.imgtn.bdimg.com/it/u=2975456394,1104738169&fm=27&gp=0.jpg);
+     height:600px;
+     width:400px;
+     
+ }
+
+ .bg-blur {
+     float: left;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     -webkit-filter: blur(15px);
+     -moz-filter: blur(15px);
+     -o-filter: blur(15px);
+     -ms-filter: blur(15px);
+     filter: blur(15px);
+ }
+
+ .content-front {
+     text-align: left;
+     line-height: 30px;
+    
+ }
+
+ .page {
+     position:absolute;
+     background: rgba(255, 255, 255, 0.2);
+     margin: 80px auto;
+     max-width:100%;
+ }
+
+
+
+ #button {
+     font-size: 20px;
+     color: #FF0000;
+     margin：0 auto;
+     font-weight: bold;
+     width: 50%;
+     background-color: #0FF;
+     font-family: SimHei;
+     height: 40px;
+     border-radius: 15px;
+ }

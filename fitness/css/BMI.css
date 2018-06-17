@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-06 17:45:29
+ * @version $Id$
+ */
+
+
+ .div{
+ 	position: relative;
+ 	text-align: center;
+
+ }
+
+
+.container{
+	margin-top: 20px;
+	max-width: 400px;
+	text-align: center;
+	font-size: 13px;
+	opacity: 0.5;
+	/*z-index: 1;*/
+}
+
+#information_text{
+	line-height: 50px;
+}
+
+#information_data{
+	top: 20px;
+}
+
+.BMI{
+	line-height: 50px;
+}
+
+.image{
+	height: 70px;
+
+}
+
+.status{
+	line-height: 10px;
+
+}
+
+#thinnish{
+	height: 5px;
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+}
+
+#normal{
+	height: 5px;
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+
+}
+
+#chubby{
+	height: 5px;
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+}
+
+#obesity{
+	height: 5px;
+	border: solid;
+	border-radius: 5px;
+	color: grey;
+}
+
+#status_text{
+	line-height: 30px;
+}
+
+
+
+
+.bottom{
+	position: fixed;
+	bottom: 0px;
+}
+
+
+.icon{
+	background: none;
+	border: none;
+}
+
+.introduce{
+	position: absolute;
+	/*float: inherit;*/
+	left: 40px;
+	top: 200px;
+	height: 200px;
+	width: 300px;
+	background-color: orange;
+}
+
+#title{
+	line-height: 40px;
+}
+
+.text{
+	text-align: left;
+}

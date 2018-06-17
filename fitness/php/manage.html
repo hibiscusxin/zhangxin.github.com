@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>健康管理</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="../css/manage.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="information" id="information_text">
+            <div class="col-xs-12">我们将根据您的目标和基础</div>
+            <div class="col-xs-12">推荐最适合你的体重管理建议</div>
+            <div class="col-xs-3"></div>
+            <div class="col-xs-4">当前体重：</div>
+            <div class="col-xs-3" style="color:orange">110.3斤</div>
+            <div class="col-xs-2"></div>
+            <div class="col-xs-12">目标体重：</div>
+        </div>
+  <div class="phase">
+      <div class="col-xs-6" id="phase">第1阶段</div>
+      <div class="col-xs-6" id="phase">第2阶段</div>
+      <div class="col-xs-12">1、两个阶段塑型，每个阶段为14天。</div>
+      <div class="col-xs-12">2、您需要经历两个阶段，想要有更好看的身材，一定要坚持第二阶段！</div>
+  </div>
+  <div class="manage">
+      <div class="col-xs-12">
+        <button class="button" onclick="window.location.href='phase1.html'">开始我的体重管理</button>
+      </div>
+  </div>
+    <div class="bottom">
+        <div id="bottom_icon">
+            <div class="col-xs-3">
+                <button class="icon"><i class="fa fa-home" onclick="window.location.href='home.html'"></i></button>
+            </div>
+            <div class="col-xs-3">
+                <button class="icon"><i class="fa fa-suitcase" onclick="window.location.href='analyse.html'"></i></button>
+            </div>
+            <div class="col-xs-3">
+                <button class="icon" style="color: orange"><i class="fa fa-wrench"></i></button>
+            </div>
+            <div class="col-xs-3">
+                <button class="icon"><i class="fa fa-user" onclick="window.location.href='center.html'"></i></button>
+            </div>
+        </div>
+        <div id="bottom_text">
+            <div class="col-xs-3">
+                <button class="icon" onclick="window.location.href='home.html'">首页</button>
+            </div>
+            <div class="col-xs-3">
+                <button class="icon" onclick="window.location.href='analyse.html'">健康分析</button>
+            </div>
+            <div class="col-xs-3">
+                <button class="icon" style="color: orange">健康管理</button>
+            </div>
+            <div class="col-xs-3">
+                <button class="icon" onclick="window.location.href='center.html'">个人中心</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/home.js"></script>
+
+</html>

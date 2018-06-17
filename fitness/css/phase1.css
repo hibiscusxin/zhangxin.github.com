@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-17 11:49:37
+ * @version $Id$
+ */
+.container{
+	margin-top: 20px;
+	max-width: 400px;
+	text-align: center;
+	font-size: 13px;
+}
+#head{
+	font-size:25px;
+	color:orange;
+	font-weight: bold;
+	line-height:50px;
+	font-family: Microsofe Yahei;
+	margin-bottom:30px;
+}
+#home{
+	text-align:left;
+	line-height: 30px;
+}
+#title{
+	font-size:18px;
+    color:orange;
+}
+
+.exercise{
+	padding-top:500px;
+}
+#sport1{
+	text-align: left;
+	color:orange;
+	font-size:15px;
+	margin-top:25px;
+}
+#sport2{
+	text-align: left;
+	color:orange;
+    font-size:10px;
+    margin-top:30px;
+}
+.tips{
+	position: fixed;
+	bottom: 0px;
+}
+

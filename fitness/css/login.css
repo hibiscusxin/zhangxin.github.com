@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-14 18:31:06
+ * @version $Id$
+ */
+
+
+
+ .container{
+  margin-top: 20px;
+  max-width: 400px;
+  text-align: left;
+  line-height: 40px;
+  
+}
+
+
+.bg { 
+  background-image: url(http://img1.imgtn.bdimg.com/it/u=2975456394,1104738169&fm=27&gp=0.jpg);
+  background-size: cover;
+  height:600px;
+  width:400px;
+ }
+
+
+
+
+
+.page{
+     position:absolute;
+     background: rgba(255, 255, 255, 0.2);
+     margin: 120px auto;
+     
+ }
+
+
+
+ #button {
+     font-size: 20px;
+     color: #FF0000;
+     width:50%;
+     position：absolute;
+     margin：0 auto;
+     font-weight: bold;
+     background-color: #0FF;
+     font-family: SimHei;
+     height: 40px;
+     border-radius: 15px;
+ }

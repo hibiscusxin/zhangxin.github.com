@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-06-13 11:02:42
+ * @version $Id$
+ */
+
+.container{
+	margin-top: 20px;
+	max-width: 400px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.name{
+	line-height: 70px;
+
+}
+
+#user{
+	text-align: right;
+}
+
+
+.btn{
+	color: orange;
+	background: none;
+	text-align: left;
+}
+
+.information{
+	line-height: 50px;
+	text-align: center;
+}
+
+.advice{
+	text-align: center;
+	line-height: 50px;
+}
+
+.fa-smile{
+	color: orange;
+}
+
+.bottom{
+	position: fixed;
+	bottom: 0px;
+}
+
+.smile{
+	background: none;
+	border: none;
+}
+
+.advices{
+	background: none;
+	border: none;
+}
+
+.icon{
+	background: none;
+	border: none;
+	/*width:70px;*/
+}
