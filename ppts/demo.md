@@ -1,8 +1,8 @@
 title:形体管理
 speaker:祝夏云
-url:https://github.com/ksky521/nodeppt
+url:https://github.com/zhangxin1102/zhangxin.github.com
 transition:slide3
-files:/js/demo.js,/css/demo.css,/js/zoom.js
+files:/js/demo.js,/css/demo.css
 theme:moon
 <!-- usemathjax:yes -->
 [slide]
