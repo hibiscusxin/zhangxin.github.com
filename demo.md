@@ -14,7 +14,7 @@ theme:moon
 <div class="columns">
 	<img src="/1.jpg" height="450px">
 </div>
-========
+
 [slide]
 # 形体管理注册登录界面
 -----
@@ -22,5 +22,5 @@ theme:moon
 	<img src="/registr.jpg" height="450px">
 	<img src="/login.jpg" height="450px">
 </div>
-========
+
 [slide]
