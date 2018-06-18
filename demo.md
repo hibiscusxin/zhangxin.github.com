@@ -24,3 +24,23 @@ theme:moon
 </div>
 
 [slide]
+# 项目功能
+
+[slide]
+# 遇到的问题
+-----
+<div class="columns1">
+	<img src="/1.png" height="450px">
+</div>
+
+[slide]
+# 遇到的问题及解决办法
+-----
+<div class="columns3">
+	<img src="/2.png" height="50px">
+	<img src="/2.png" height="50px">
+	<img src="/2.png" height="50px">
+	
+</div>
+
+[slide]
