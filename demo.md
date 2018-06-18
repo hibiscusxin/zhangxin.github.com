@@ -12,15 +12,15 @@ theme:moon
 # 形体管理界面
 -----
 <div class="columns">
-	<img src="/1.jpg" height="450px">
+	<img src="img/1.jpg" height="450px">
 </div>
 
 [slide]
 # 形体管理注册登录界面
 -----
 <div class="columns">
-	<img src="/registr.jpg" height="450px">
-	<img src="/login.jpg" height="450px">
+	<img src="img/registr.jpg" height="450px">
+	<img src="img/login.jpg" height="450px">
 </div>
 
 [slide]
@@ -31,16 +31,16 @@ theme:moon
 # 遇到的问题
 -----
 <div class="columns1">
-	<img src="/1.png" height="450px">
+	<img src="img/1.png" height="450px">
 </div>
 
 [slide]
 # 遇到的问题及解决办法
 -----
 <div class="columns3">
-	<img src="/2.png" width="350px">
-	<img src="/2.png" width="350px">
-	<img src="/2.png" width="350px">
+	<img src="img/2.png" width="350px">
+	<img src="img/3.png" width="350px">
+	<img src="img/4.png" width="350px">
 	
 </div>
 
