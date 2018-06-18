@@ -6,45 +6,54 @@
  * @version $Id$
  */
 .container{
-	margin-top: 20px;
+	margin-top: 5px;
 	max-width: 400px;
 	text-align: center;
 	font-size: 13px;
 }
+.information{
+	width: 200px;
+	height:200px;
+	line-height: 10px;
+	text-align: center;
+	margin:20%;
+	background-color: #FE7;
+	border-radius:50%;
 
-#information_text{
-	line-height: 30px;
 }
 
 #information_data{
-	top: 20px;
+	padding-top: 60px;
+	line-height:50px;
+	
 }
 .phase{
 	text-align: left;
 	line-height: 20px;
-	margin-top:300px;
+	
 }
 #phase{
 	width:100px;
 	height:30px;
-	border-radius: 15px;
+	border-radius: 12px;
 	background: #F8F8F8;
 	font-size:15px;
 	line-height: 30px;
+	text-align: center;
 }
 .button{
 	width:80%;
-	margin-top:50px;
+	margin-top:20px;
 	height:40px;
 	border-radius: 15px;
-	background: #F60;
+	/*background:#F60;*/
 	font-size:20px;
-	color:#eee;
 	
 }
 .bottom{
 	position: fixed;
 	bottom: 0px;
+	background-color: white;
 }
 
 

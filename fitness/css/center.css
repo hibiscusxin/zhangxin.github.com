@@ -46,6 +46,8 @@
 .bottom{
 	position: fixed;
 	bottom: 0px;
+	background-color: white;
+	
 }
 
 .smile{
@@ -56,10 +58,10 @@
 .advices{
 	background: none;
 	border: none;
+	color: orange;
 }
 
 .icon{
 	background: none;
 	border: none;
-	/*width:70px;*/
 }

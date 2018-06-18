@@ -27,9 +27,8 @@
 	line-height: 50px;
 }
 
-.image{
-	height: 70px;
-
+.space{
+	height: 100px;
 }
 
 .status{
@@ -71,11 +70,11 @@
 }
 
 
-
-
 .bottom{
 	position: fixed;
 	bottom: 0px;
+	background-color: white;
+	
 }
 
 

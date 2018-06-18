@@ -5,4 +5,3 @@
  * @version $Id$
  */
 
-var BMI=getElementById('BMI');

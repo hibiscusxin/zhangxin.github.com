@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /**
  * 
  * @authors Your Name (you@example.org)
@@ -18,7 +18,7 @@
 
 
 .bg { 
-  background-image: url(http://img1.imgtn.bdimg.com/it/u=2975456394,1104738169&fm=27&gp=0.jpg);
+  background-image: url(../img/back.jpg);
   background-size: cover;
   height:600px;
   width:400px;

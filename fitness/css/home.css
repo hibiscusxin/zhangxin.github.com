@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/*@charset "UTF-8";
 /**
  * 
  * @authors Your Name (you@example.org)
@@ -8,44 +8,41 @@
 .container{
 	margin-top: 20px;
 	max-width: 400px;
-	text-align: center;
 	font-size: 13px;
-}
-
-.information{
-	width: 200px;
-	height: 200px;
-	line-height: 10px;
 	text-align: center;
-	margin:25%;
-	background-color: #FE7;
-	border-radius:50%;
-
 }
-/*#information_text{
-	line-height: 50px;
-}*/
 
-#information_data{
-	padding-top: 60px;
-	line-height:50px;
+#home{
+	text-align:left;
+	line-height: 30px;
+}
+#title{
+	font-size:18px;
+    color:orange;
+}
+
+
+#sport{
+	text-align:left;
+	line-height: 30px;
 	
 }
 
 
-.bottom1{
-	position:absolute;
-	margin-top:450px;
+#space{
+	margin-bottom: 100px;
 }
 
-.bottom2{
+
+.bottom{
 	position: fixed;
 	bottom: 0px;
+	background-color: white;
+	
 }
 
 
 .icon{
 	background: none;
 	border: none;
-
 }
