@@ -38,9 +38,9 @@ theme:moon
 # 遇到的问题及解决办法
 -----
 <div class="columns3">
-	<img src="/img/2.png" width="350px">
-	<img src="/img/3.png" width="350px">
-	<img src="/img/4.png" width="350px">
+	<img src="/img/2.png" >
+	<img src="/img/3.png" >
+	<img src="/img/4.png" >
 	
 </div>
 
