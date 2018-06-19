@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.container{
+	margin-top: 20px;
+	max-width: 400px;
+	text-align: left;
+	font-size: 13px;
+}
+
+.tips{
+	text-align: center;
+	font-size: 15px;
+	position:relative;
+	top: 0px;
+}
+
+.diet{
+	position: relative;
+	top: 10px;
+}
+
+.main{
+	position: relative;
+	top: 20px;
+}
+
+.fruit{
+	position: relative;
+	top: 90px;
+}
+
+.snake{
+	position: relative;
+	top: 160px;
+}
+
+.drink{
+	position: relative;
+	top: 230px;
+}
+
+
+.food{
+	position: relative;
+	top: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.quantity{
+	position: relative;
+	top: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: lightgrey;
+}
+
+.cal{
+	position: relative;
+	top: 20px;
+	font-size: 14px;
+	text-align: right;
+	color: lightgrey;
+}
+
+.advice{
+	position: relative;
+	top: 350px;
+}
+
+.img{
+	height: 5px;
+	width: 5px;
+}
+
+.icon{
+	background: none;
+	border: none;
+}
+
+.bottom{
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	background-color: white;
+}

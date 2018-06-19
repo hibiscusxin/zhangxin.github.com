@@ -1,69 +1,42 @@
 ﻿@charset "UTF-8";
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2018-06-14 18:30:49
- * @version $Id$
- */
-
 
 .container{
   max-width: 400px;
   line-height: 40px;
-  
 }
- .content {
 
+.content {
      color: #333;
      font-size: 20px;
      font-family: KaiTi;
      font-weight: bold;
  }
 
- .bg {
-     position:absolute;
+.bg {
      background-image: url(../img/back.jpg);
      background-size: cover;
      height:600px;
-     width:400px;
-     
+     max-width:400px;
+     margin-top: 33px;
  }
 
- .bg-blur {
-     float: left;
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
-     -webkit-filter: blur(15px);
-     -moz-filter: blur(15px);
-     -o-filter: blur(15px);
-     -ms-filter: blur(15px);
-     filter: blur(15px);
- }
-
- .content-front {
-     text-align: left;
+.content-front {
      line-height: 30px;
-    
  }
 
- .page {
+.page {
      position:absolute;
-     background: rgba(255, 255, 255, 0.2);
-     margin: 80px auto;
-     max-width:100%;
+     background: rgba(255, 255, 255, 0.4);
+     margin-top: 50px;
+     margin-left: 15px;
  }
 
-
-
- #button {
+#button {
      font-size: 20px;
-     color: #FF0000;
-     margin：0 auto;
-     font-weight: bold;
      width: 50%;
      background-color: #0FF;
+     opacity: 0.9;
      font-family: SimHei;
      height: 40px;
-     border-radius: 15px;
+     border-radius: 12px;
  }

@@ -1,17 +1,11 @@
 ﻿@charset "UTF-8";
 
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2018-06-01 09:16:09
- * @version $Id$
-*/
-
 .page {
     max-width: 400px;
     height: 600px;
     background-image: url(../img/back.jpg);
     background-size: cover;
+    margin-top: 33px;
     line-height: 30px;
 }
 
@@ -23,32 +17,26 @@
     text-align: center;
 }
 
-.row1 {
+.title {
     margin-top: 160px;
 }
 
-
-.row2 {
+.introduction {
     margin-top: 30px;
-    font-size: 20px;
-    font-family: STKaiti;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
-
     color: #FF6A00;
 }
 
-
-
 #button {
     font-size: 20px;
-    color: #FF0000;
-    position：absolute;
+    color: #FF6A00;
+    opacity: 0.8;
     font-weight: bold;
-    width: 80%;
-    /*   background-color: #0FF;*/
+    width: 100%;
     font-family: SimHei;
     height: 30px;
-    border-radius: 15px;
+    border-radius: 12px;
     margin-top: 230px;
 }

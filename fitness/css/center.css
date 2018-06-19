@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2018-06-13 11:02:42
- * @version $Id$
- */
 
 .container{
 	margin-top: 20px;
@@ -15,13 +9,15 @@
 
 .name{
 	line-height: 70px;
+}
 
+#name{
+	text-align: left;
 }
 
 #user{
 	text-align: right;
 }
-
 
 .btn{
 	color: orange;

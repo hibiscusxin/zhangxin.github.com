@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>形体管理</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link href="../css/diet.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="dropdown">
+                    <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">breakfast
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                        <li><a href="#B-Mon" tabindex="-1" data-toggle="tab">Mon</a></li>
+                        <li><a href="#B-Tue" tabindex="-1" data-toggle="tab">Tue</a></li>
+                        <li><a href="#B-Wed" tabindex="-1" data-toggle="tab">Wed</a></li>
+                        <li><a href="#B-Thu" tabindex="-1" data-toggle="tab">Thu</a></li>
+                        <li><a href="#B-Fri" tabindex="-1" data-toggle="tab">Fri</a></li>
+                        <li><a href="#B-Sat" tabindex="-1" data-toggle="tab">Sat</a></li>
+                        <li><a href="#B-Sun" tabindex="-1" data-toggle="tab">Sun</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="myTabDrop2" class="dropdown-toggle" data-toggle="dropdown">lunch
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                        <li><a href="#L-Mon" tabindex="-1" data-toggle="tab">Mon</a></li>
+                        <li><a href="#L-Tue" tabindex="-1" data-toggle="tab">Tue</a></li>
+                        <li><a href="#L-Wed" tabindex="-1" data-toggle="tab">Wed</a></li>
+                        <li><a href="#L-Thu" tabindex="-1" data-toggle="tab">Thu</a></li>
+                        <li><a href="#L-Fri" tabindex="-1" data-toggle="tab">Fri</a></li>
+                        <li><a href="#L-Sat" tabindex="-1" data-toggle="tab">Sat</a></li>
+                        <li><a href="#L-Sun" tabindex="-1" data-toggle="tab">Sun</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="myTabDrop3" class="dropdown-toggle" data-toggle="dropdown">dinner
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                        <li><a href="#D-Mon" tabindex="-1" data-toggle="tab">Mon</a></li>
+                        <li><a href="#D-Tue" tabindex="-1" data-toggle="tab">Tue</a></li>
+                        <li><a href="#D-Wed" tabindex="-1" data-toggle="tab">Wed</a></li>
+                        <li><a href="#D-Thu" tabindex="-1" data-toggle="tab">Thu</a></li>
+                        <li><a href="#D-Fri" tabindex="-1" data-toggle="tab">Fri</a></li>
+                        <li><a href="#D-Sat" tabindex="-1" data-toggle="tab">Sat</a></li>
+                        <li><a href="#D-Sun" tabindex="-1" data-toggle="tab">Sun</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="B-Mon">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/bread.png">
+                            </div>
+                            <div class="col-xs-3 food">面包</div>
+                            <div class="col-xs-3 quantity">30克</div>
+                            <div class="col-xs-3 cal">91千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/cherry.png">
+                            </div>
+                            <div class="col-xs-3 food">车厘子</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">61千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/nut.png">
+                            </div>
+                            <div class="col-xs-3 food">腰果</div>
+                            <div class="col-xs-3 quantity">20克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/non-sugar.png">
+                            </div>
+                            <div class="col-xs-3 food">无糖豆浆</div>
+                            <div class="col-xs-3 quantity">130克</div>
+                            <div class="col-xs-3 cal">30千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            7:00~9:00完成，要想身体好，早餐要吃好。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="B-Tue">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oat.png">
+                            </div>
+                            <div class="col-xs-3 food">燕麦饭</div>
+                            <div class="col-xs-3 quantity">30克</div>
+                            <div class="col-xs-3 cal">93千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/hami.png">
+                            </div>
+                            <div class="col-xs-3 food">哈密瓜</div>
+                            <div class="col-xs-3 quantity">180克</div>
+                            <div class="col-xs-3 cal">62千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/nut.png">
+                            </div>
+                            <div class="col-xs-3 food">腰果</div>
+                            <div class="col-xs-3 quantity">20克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/original.png">
+                            </div>
+                            <div class="col-xs-3 food">大豆原浆</div>
+                            <div class="col-xs-3 quantity">250克</div>
+                            <div class="col-xs-3 cal">104千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            7:00~9:00完成，要想身体好，早餐要吃好。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="B-Wed">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">米粉</div>
+                            <div class="col-xs-3 quantity">80克</div>
+                            <div class="col-xs-3 cal">91千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/cherry.png">
+                            </div>
+                            <div class="col-xs-3 food">车厘子</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">61千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/semen.png">
+                            </div>
+                            <div class="col-xs-3 food">核桃仁</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/original.png">
+                            </div>
+                            <div class="col-xs-3 food">大豆原浆</div>
+                            <div class="col-xs-3 quantity">250克</div>
+                            <div class="col-xs-3 cal">101千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            7:00~9:00完成，要想身体好，早餐要吃好。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="B-Thu">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/porridge.png">
+                            </div>
+                            <div class="col-xs-3 food">稀饭</div>
+                            <div class="col-xs-3 quantity">160克</div>
+                            <div class="col-xs-3 cal">91千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/pear.png">
+                            </div>
+                            <div class="col-xs-3 food">梨</div>
+                            <div class="col-xs-3 quantity">140克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/nut.png">
+                            </div>
+                            <div class="col-xs-3 food">腰果</div>
+                            <div class="col-xs-3 quantity">20克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/sour.png">
+                            </div>
+                            <div class="col-xs-3 food">酸奶</div>
+                            <div class="col-xs-3 quantity">180克</div>
+                            <div class="col-xs-3 cal">101千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            7:00~9:00完成，要想身体好，早餐要吃好。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="B-Fri">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/corn.png">
+                            </div>
+                            <div class="col-xs-3 food">甜玉米</div>
+                            <div class="col-xs-3 quantity">160克</div>
+                            <div class="col-xs-3 cal">157千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/pomelo.png">
+                            </div>
+                            <div class="col-xs-3 food">西柚</div>
+                            <div class="col-xs-3 quantity">320克</div>
+                            <div class="col-xs-3 cal">104千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/semen.png">
+                            </div>
+                            <div class="col-xs-3 food">核桃仁</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/sour.png">
+                            </div>
+                            <div class="col-xs-3 food">酸奶</div>
+                            <div class="col-xs-3 quantity">140克</div>
+                            <div class="col-xs-3 cal">103千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            7:00~9:00完成，要想身体好，早餐要吃好。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="B-Sat">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/n-noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">面条</div>
+                            <div class="col-xs-3 quantity">80克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/nectarine.png">
+                            </div>
+                            <div class="col-xs-3 food">蜜桃</div>
+                            <div class="col-xs-3 quantity">150克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/almond.png">
+                            </div>
+                            <div class="col-xs-3 food">杏仁</div>
+                            <div class="col-xs-3 quantity">20克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/non-fat.png">
+                            </div>
+                            <div class="col-xs-3 food">无脂豆奶</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">29千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            7:00~9:00完成，要想身体好，早餐要吃好。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="B-Sun">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/potato.png">
+                            </div>
+                            <div class="col-xs-3 food">土豆</div>
+                            <div class="col-xs-3 quantity">140克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/blueberry.png">
+                            </div>
+                            <div class="col-xs-3 food">蓝莓</div>
+                            <div class="col-xs-3 quantity">110克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/almond.png">
+                            </div>
+                            <div class="col-xs-3 food">杏仁</div>
+                            <div class="col-xs-3 quantity">20克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/lowfat-milk.png">
+                            </div>
+                            <div class="col-xs-3 food">低脂纯牛奶</div>
+                            <div class="col-xs-3 quantity">250克</div>
+                            <div class="col-xs-3 cal">100千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            7:00~9:00完成，要想身体好，早餐要吃好。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Mon">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/pepper.png">
+                            </div>
+                            <div class="col-xs-3 food">青椒</div>
+                            <div class="col-xs-3 quantity">300克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/bean.png">
+                            </div>
+                            <div class="col-xs-3 food">豆薯</div>
+                            <div class="col-xs-3 quantity">390克</div>
+                            <div class="col-xs-3 cal">140千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/fish.png">
+                            </div>
+                            <div class="col-xs-3 food">罗非鱼</div>
+                            <div class="col-xs-3 quantity">180克</div>
+                            <div class="col-xs-3 cal">133千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Tue">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/mushroom.png">
+                            </div>
+                            <div class="col-xs-3 food">蘑菇</div>
+                            <div class="col-xs-3 quantity">280克</div>
+                            <div class="col-xs-3 cal">61千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/purple-potato.png">
+                            </div>
+                            <div class="col-xs-3 food">紫薯</div>
+                            <div class="col-xs-3 quantity">190克</div>
+                            <div class="col-xs-3 cal">141千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/f-fish.png">
+                            </div>
+                            <div class="col-xs-3 food">刀鱼</div>
+                            <div class="col-xs-3 quantity">80克</div>
+                            <div class="col-xs-3 cal">99千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Wed">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/feverfew.png">
+                            </div>
+                            <div class="col-xs-3 food">白蘑菇</div>
+                            <div class="col-xs-3 quantity">270克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/n-noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">乌冬面</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">141千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/fillet.png">
+                            </div>
+                            <div class="col-xs-3 food">鸡柳</div>
+                            <div class="col-xs-3 quantity">80克</div>
+                            <div class="col-xs-3 cal">134千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Thu">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/pepper.png">
+                            </div>
+                            <div class="col-xs-3 food">青椒</div>
+                            <div class="col-xs-3 quantity">300克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/bean.png">
+                            </div>
+                            <div class="col-xs-3 food">豆薯</div>
+                            <div class="col-xs-3 quantity">390克</div>
+                            <div class="col-xs-3 cal">140千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/fish.png">
+                            </div>
+                            <div class="col-xs-3 food">罗非鱼</div>
+                            <div class="col-xs-3 quantity">180克</div>
+                            <div class="col-xs-3 cal">133千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Fri">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/radish.png">
+                            </div>
+                            <div class="col-xs-3 food">水萝卜</div>
+                            <div class="col-xs-3 quantity">280克</div>
+                            <div class="col-xs-3 cal">61千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/corn.png">
+                            </div>
+                            <div class="col-xs-3 food">糯玉米</div>
+                            <div class="col-xs-3 quantity">110克</div>
+                            <div class="col-xs-3 cal">142千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/pork.png">
+                            </div>
+                            <div class="col-xs-3 food">猪肉扒</div>
+                            <div class="col-xs-3 quantity">90克</div>
+                            <div class="col-xs-3 cal">136千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Sat">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/edible.png">
+                            </div>
+                            <div class="col-xs-3 food">野苋菜</div>
+                            <div class="col-xs-3 quantity">220克</div>
+                            <div class="col-xs-3 cal">63千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/black-rice-porridge.png">
+                            </div>
+                            <div class="col-xs-3 food">黑米粥</div>
+                            <div class="col-xs-3 quantity">220克</div>
+                            <div class="col-xs-3 cal">146千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/duck.png">
+                            </div>
+                            <div class="col-xs-3 food">鸭肉</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">139千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Sun">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/snake-gourd.png">
+                            </div>
+                            <div class="col-xs-3 food">蛇瓜</div>
+                            <div class="col-xs-3 quantity">310克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">米粉</div>
+                            <div class="col-xs-3 quantity">130克</div>
+                            <div class="col-xs-3 cal">139千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/shrimp.png">
+                            </div>
+                            <div class="col-xs-3 food">江虾</div>
+                            <div class="col-xs-3 quantity">150克</div>
+                            <div class="col-xs-3 cal">132千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="D-Mon">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/snake-gourd.png">
+                            </div>
+                            <div class="col-xs-3 food">蛇瓜</div>
+                            <div class="col-xs-3 quantity">310克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">米粉</div>
+                            <div class="col-xs-3 quantity">130克</div>
+                            <div class="col-xs-3 cal">139千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/shrimp.png">
+                            </div>
+                            <div class="col-xs-3 food">江虾</div>
+                            <div class="col-xs-3 quantity">150克</div>
+                            <div class="col-xs-3 cal">132千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            记得晚餐时间为17:30~19:30，按时就餐，饭后运动，更容易促进消化。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="D-Tue">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/radish.png">
+                            </div>
+                            <div class="col-xs-3 food">水萝卜</div>
+                            <div class="col-xs-3 quantity">280克</div>
+                            <div class="col-xs-3 cal">61千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/corn.png">
+                            </div>
+                            <div class="col-xs-3 food">糯玉米</div>
+                            <div class="col-xs-3 quantity">110克</div>
+                            <div class="col-xs-3 cal">142千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/pork.png">
+                            </div>
+                            <div class="col-xs-3 food">猪肉扒</div>
+                            <div class="col-xs-3 quantity">90克</div>
+                            <div class="col-xs-3 cal">136千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            记得晚餐时间为17:30~19:30，按时就餐，饭后运动，更容易促进消化。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="D-Wed">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/snake-gourd.png">
+                            </div>
+                            <div class="col-xs-3 food">蛇瓜</div>
+                            <div class="col-xs-3 quantity">310克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">米粉</div>
+                            <div class="col-xs-3 quantity">130克</div>
+                            <div class="col-xs-3 cal">139千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/shrimp.png">
+                            </div>
+                            <div class="col-xs-3 food">江虾</div>
+                            <div class="col-xs-3 quantity">150克</div>
+                            <div class="col-xs-3 cal">132千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            记得晚餐时间为17:30~19:30，按时就餐，饭后运动，更容易促进消化。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="D-Thu">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/edible.png">
+                            </div>
+                            <div class="col-xs-3 food">野苋菜</div>
+                            <div class="col-xs-3 quantity">220克</div>
+                            <div class="col-xs-3 cal">63千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/black-rice-porridge.png">
+                            </div>
+                            <div class="col-xs-3 food">黑米粥</div>
+                            <div class="col-xs-3 quantity">220克</div>
+                            <div class="col-xs-3 cal">146千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/duck.png">
+                            </div>
+                            <div class="col-xs-3 food">鸭肉</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">139千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            记得晚餐时间为17:30~19:30，按时就餐，饭后运动，更容易促进消化。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="L-Wed">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/feverfew.png">
+                            </div>
+                            <div class="col-xs-3 food">白蘑菇</div>
+                            <div class="col-xs-3 quantity">270克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/n-noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">乌冬面</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">141千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/fillet.png">
+                            </div>
+                            <div class="col-xs-3 food">鸡柳</div>
+                            <div class="col-xs-3 quantity">80克</div>
+                            <div class="col-xs-3 cal">134千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            午餐：12:00~13:00完成，午餐要营养，抵抗力满满。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="D-Fri">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/pepper.png">
+                            </div>
+                            <div class="col-xs-3 food">青椒</div>
+                            <div class="col-xs-3 quantity">300克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/bean.png">
+                            </div>
+                            <div class="col-xs-3 food">豆薯</div>
+                            <div class="col-xs-3 quantity">390克</div>
+                            <div class="col-xs-3 cal">140千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/fish.png">
+                            </div>
+                            <div class="col-xs-3 food">罗非鱼</div>
+                            <div class="col-xs-3 quantity">180克</div>
+                            <div class="col-xs-3 cal">133千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            记得晚餐时间为17:30~19:30，按时就餐，饭后运动，更容易促进消化。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="D-Sat">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/feverfew.png">
+                            </div>
+                            <div class="col-xs-3 food">白蘑菇</div>
+                            <div class="col-xs-3 quantity">270克</div>
+                            <div class="col-xs-3 cal">60千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/n-noodle.png">
+                            </div>
+                            <div class="col-xs-3 food">乌冬面</div>
+                            <div class="col-xs-3 quantity">100克</div>
+                            <div class="col-xs-3 cal">141千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/fillet.png">
+                            </div>
+                            <div class="col-xs-3 food">鸡柳</div>
+                            <div class="col-xs-3 quantity">80克</div>
+                            <div class="col-xs-3 cal">134千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            记得晚餐时间为17:30~19:30，按时就餐，饭后运动，更容易促进消化。
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="D-Sun">
+                    <div class="diet">
+                        <div class="tips">提醒：此方案仅适用于18~60周岁正常人群。</div>
+                        <div class="recommand main">
+                            <div class="col-xs-3 img">
+                                <img src="../img/mushroom.png">
+                            </div>
+                            <div class="col-xs-3 food">蘑菇</div>
+                            <div class="col-xs-3 quantity">280克</div>
+                            <div class="col-xs-3 cal">61千卡</div>
+                        </div>
+                        
+                        <div class="recommand fruit">
+                            <div class="col-xs-3 img">
+                                <img src="../img/purple-potato.png">
+                            </div>
+                            <div class="col-xs-3 food">紫薯</div>
+                            <div class="col-xs-3 quantity">190克</div>
+                            <div class="col-xs-3 cal">141千卡</div>
+                        </div>
+                        <div class="recommand snake">
+                            <div class="col-xs-3 img">
+                                <img src="../img/L-shrimp.png">
+                            </div>
+                            <div class="col-xs-3 food">濑尿虾</div>
+                            <div class="col-xs-3 quantity">180克</div>
+                            <div class="col-xs-3 cal">135千卡</div>
+                        </div>
+                        <div class="recommand drink">
+                            <div class="col-xs-3 img">
+                                <img src="../img/oil.png">
+                            </div>
+                            <div class="col-xs-3 food">花生油</div>
+                            <div class="col-xs-3 quantity">10克</div>
+                            <div class="col-xs-3 cal">90千卡</div>
+                        </div>
+                        
+                    </div>
+                    <div class="advice">
+                        <div class="col-xs-12">
+                            记得晚餐时间为17:30~19:30，按时就餐，饭后运动，更容易促进消化。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div id="bottom_icon">
+                    <div class="col-xs-3">
+                        <button class="icon" onclick="window.location.href='home.php'">
+                        <i class="fa fa-home"></i>
+                        </button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button class="icon" onclick="window.location.href='analyse.php'">
+                        <i class="fa fa-suitcase"></i>
+                        </button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button class="icon" onclick="window.location.href='manage.php'">
+                        <i class="fa fa-wrench" style="color: orange"></i>
+                        </button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button class="icon" onclick="window.location.href='center.php'">
+                        <i class="fa fa-user"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="bottom_text">
+                    <div class="col-xs-3">
+                        <button class="icon" onclick="window.location.href='home.php'">首页</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button class="icon"onclick="window.location.href='analyse.php'">健康分析</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button class="icon" onclick="window.location.href='manage.php'" style="color: orange">健康管理</button>
+                    </div>
+                    <div class="col-xs-3">
+                        <button class="icon" onclick="window.location.href='center.php'">个人中心</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

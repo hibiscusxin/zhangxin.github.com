@@ -1,46 +1,57 @@
-/*@charset "UTF-8";
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2018-06-16 19:52:29
- * @version $Id$
- */
+@charset "UTF-8";
+
 .container{
-	margin-top: 20px;
+	margin-top: 5px;
 	max-width: 400px;
+	text-align: center;
 	font-size: 13px;
+}
+
+.information{
+	width: 200px;
+	height:200px;
+	line-height: 10px;
+	text-align: center;
+	margin:20%;
+	background-color: #FE7;
+	border-radius:50%;
+}
+
+#information_data{
+	padding-top: 60px;
+	line-height:50px;
+}
+
+.phase{
+	text-align: left;
+	line-height: 30px;
+}
+
+#phase{
+	position: relative;
+	bottom: 10px;
+	width:100px;
+	height:30px;
+	border-radius: 12px;
+	background: #F8F8F8;
+	font-size:15px;
+	line-height: 30px;
 	text-align: center;
 }
 
-#home{
-	text-align:left;
-	line-height: 30px;
+.button{
+	width:80%;
+	margin-top:20px;
+	height:40px;
+	border-radius: 15px;
+	font-size:20px;
 }
-#title{
-	font-size:18px;
-    color:orange;
-}
-
-
-#sport{
-	text-align:left;
-	line-height: 30px;
-	
-}
-
-
-#space{
-	margin-bottom: 100px;
-}
-
 
 .bottom{
 	position: fixed;
 	bottom: 0px;
 	background-color: white;
-	
 }
-
 
 .icon{
 	background: none;
