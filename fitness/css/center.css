@@ -25,6 +25,14 @@
 	text-align: left;
 }
 
+.exit{
+	position: relative;
+	top: 40px;
+	color: orange;
+	background: none;
+	text-align: left;
+}
+
 .information{
 	line-height: 50px;
 	text-align: center;

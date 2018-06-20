@@ -73,6 +73,9 @@ session_start();
 					<input class="btn" type="button" value="建议吐槽">
 				</div>
 			</div>
+			<div class="col-xs-12">
+					<input class="exit" type="button" value="退出" style="border: 1px solid orange" onclick="window.location.href='fitness.html'">
+				</div>
 			<div class="bottom">
 				<div id="bottom_icon">
 					<div class="col-xs-3">
