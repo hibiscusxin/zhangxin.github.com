@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+<head>
+ <link href="timer.css" rel="stylesheet">
+  <meta
+ 
+charset="UTF-8">
+ 
+  <title>计时器</title>
+ 
+  <script>
+ 
+    var hour,minute,second;//时 分 秒
+ 
+    hour=minute=second=0;//初始化
+ 
+    var millisecond=0;//毫秒
+ 
+    var int;
+    var S="";
+ 
+    function
+    Reset()//重置
+ 
+    {
+ 
+      window.clearInterval(int);
+      window.clearInterval(times);
+      S="";
+      millisecond=hour=minute=second=0;
+      document.getElementById('times').value="";
+      document.getElementById('timetext').value='00 h 00 m 00 s 000 ms';
+ 
+    }
+ 
+   
+ 
+    function
+ start()//开始
+ 
+    {
+      int=setInterval(timer,50);
+ 
+    }
+ 
+   
+ 
+    function
+    timer()//计时
+ 
+    {
+ 
+      millisecond=millisecond+50;
+ 
+      if(millisecond>=1000)
+ 
+      {
+ 
+        millisecond=0;
+ 
+        second=second+1;
+ 
+      }
+ 
+      if(second>=60)
+ 
+      {
+ 
+        second=0;
+ 
+        minute=minute+1;
+ 
+      }
+ 
+   
+ 
+      if(minute>=60)
+ 
+      {
+ 
+        minute=0;
+ 
+        hour=hour+1;
+ 
+      }
+ 
+      document.getElementById('timetext').value=hour+' h '+minute+' m '+second+' s '+millisecond+' ms';
+ 
+   
+ 
+    }
+
+    
+  
+    function stop() //计次
+    {
+      // window.clearInterval(int);
+      S+=hour+' h '+minute+' m '+second+' s '+millisecond+' ms'+'\n';
+      document.getElementById('times').value=S;
+      // int=setInterval(timer,50);
+     //  document.getElementById("stop").onclick=function(){
+
+
+     // document.getElementById('times').value=hour+' h '+minute+' m '+second+' s '+millisecond+' ms';
+     //   }
+    }
+ 
+   
+    function
+    pause()//暂停
+ 
+    {
+ 
+      window.clearInterval(int);
+      
+      
+
+    }
+
+ 
+ //    function 
+ //    AcceptData(time){
+ // document.getElementById('timetext').value=hour+' h '+minute+' m '+second+' s '+millisecond+' ms';
+ // }
+ 
+  </script>
+ 
+</head>
+ 
+<body>
+ 
+<div class="box" 
+ 
+style="text-align:
+ center">
+ 
+  <input class="time" type="text" id="timetext"
+ 
+value="00 h 00 m 00 s" readonly="true" 
+ 
+><br>
+ 
+  <button class="icon"
+ 
+type="button"
+ 
+onclick="start()">开始</button>
+ <button id="stop" type="button" class="icon"
+ 
+onclick="stop()">计时</button>
+
+<button id="pause" type="button" class="icon"
+ 
+onclick="pause()">暂停</button>
+ <button
+ 
+type="button" class="icon"
+ 
+onclick="Reset()">复位</button>
+ 
+ 
+<!-- <p><input type="text"  id="times"   /></p> -->
+<textarea type="text" id="times"></textarea>
+
+</div>
+
+ 
+</body>
+<script src="timer.js"></script>
+ 
+</html>
